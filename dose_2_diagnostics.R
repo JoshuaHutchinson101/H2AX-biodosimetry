@@ -61,7 +61,7 @@ cat("\n", strrep("=", 60), "\n")
 cat("MODEL UNCERTAINTY ONLY — DOSE DISTRIBUTION\n")
 cat(strrep("=", 60), "\n\n")
 
-# Use the same reference scenario as the decomposition
+# same reference scenario as the decomposition
 DIAG_RES  <- 3.0
 DIAG_TIME <- 4.3
 DIAG_B     <- 10000
