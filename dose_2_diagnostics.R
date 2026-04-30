@@ -8,10 +8,6 @@
 #     contributes to the dose distribution
 #
 # Run after dose_1_setup.R
-# ==========================================================
-
-if (!exists("estimate_dose_hybrid_mc"))
-  stop("Run hybrid_1_setup.R first.")
 
 # ----------------------------------------------------------
 # Confirm locked coefficients match biexp_fit.R
