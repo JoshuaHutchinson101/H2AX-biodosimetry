@@ -25,7 +25,7 @@ source("dose_1_setup.R")
 # ----------------------------------------------------------
 # Pre-compute bootstrap parameter draws at startup.
 # Uses the same 12x12 joint MVN as the analysis pipeline
-# so the app is consistent with hybrid_2/3/4 outputs.
+# so the app is consistent with dose_2/3/4 outputs.
 # ----------------------------------------------------------
 B_PRECOMPUTE <- 10000
 
