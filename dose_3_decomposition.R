@@ -3,7 +3,6 @@
 # Uncertainty decomposition: compares CI width when each
 # source is added in turn, and produces the full
 # three-source dose distribution figure.
-#
 # Run after dose_2_diagnostics.R
 # ==========================================================
 
