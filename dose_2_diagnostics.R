@@ -6,7 +6,6 @@
 #   - Model uncertainty ONLY distribution (Sources 2 and 3
 #     switched off) to isolate what the joint MVN draw
 #     contributes to the dose distribution
-#
 # Run after dose_1_setup.R
 
 # ----------------------------------------------------------
@@ -54,7 +53,7 @@ cat("\nAll g < 1: calibration well-identified at all time points.\n")
 # Model uncertainty only distribution
 # Sources 2 and 3 switched off (n_cells = NA, sigma_t = 0)
 # to isolate the contribution of the joint MVN draw.
-# This is the dose distribution arising purely from
+# This is the dose distribution purely from
 # uncertainty in the meta-analytic calibration parameters.
 # ----------------------------------------------------------
 cat("\n", strrep("=", 60), "\n")
